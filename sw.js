@@ -1,5 +1,5 @@
-const CACHE = 'athiwat-exam-cloud-v3';
-const ASSETS = ['./', './index.html', './supabase-config.js', './manifest.webmanifest', './icon.svg'];
+const CACHE = 'athiwat-exam-cloud-v4';
+const ASSETS = ['./', './index.html', './supabase-config.js', './question-importer.js', './manifest.webmanifest', './icon.svg', './question-import-template.txt'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
   self.skipWaiting();
