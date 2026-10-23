@@ -1,0 +1,14 @@
+{
+  "name": "ATHIWAT ELECTRIC Pro Max | เตรียมสอบครูผู้ช่วยอาชีวศึกษา",
+  "short_name": "ATHIWAT Pro Max",
+  "description": "ระบบฝึกสอบ วิเคราะห์จุดอ่อน และจัดการคลังข้อสอบครูผู้ช่วยอาชีวศึกษา",
+  "lang": "th-TH",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0757bd",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
